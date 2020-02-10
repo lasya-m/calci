@@ -1,0 +1,20 @@
+package project;
+import java.util.Scanner;
+public class calci {
+	public static void main(String args[]) {
+		Scanner input=new Scanner(System.in);
+	    String str=input.nextLine();
+	    operation obj1=new opertion()
+	    switch(str) {
+	    case "add":addition();
+	    break;
+	    case "sub":substract();
+	    break;
+	    case "mul":multiply();
+	    break;
+	    case "div":division();
+	    break;
+	    	
+	}
+
+}}

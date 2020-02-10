@@ -1,0 +1,18 @@
+package project;
+
+public class operation:inp {
+public static int addition() {
+	inp obj=new inp();
+int[]	a=obj.inpt();
+return(a[0]+a[1]);}
+public static int subtraction() {
+int[]	a=obj.inpt();
+return(a[0]-a[1]);}
+public static int multiplication() {
+int[]	a=obj.inpt();
+return(a[0]*a[1]);}
+public static int division() {
+int[]	a=obj.inpt();
+return(a[0]/a[1]);}
+
+}

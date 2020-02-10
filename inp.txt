@@ -1,0 +1,12 @@
+package project;
+import java.util.Scanner;
+
+public class inp {
+public static int[] inpt() {
+	Scanner input=new Scanner(System.in);
+	int[] a;
+	int a[0]=input.nextDoube();
+	int a[1]=input.nextDouble();
+	return a;
+}
+}
